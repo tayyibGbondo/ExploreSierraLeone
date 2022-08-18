@@ -6,7 +6,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-image: url(./asets/img/b3.jpg);
   color: white;
 }
 
