@@ -129,3 +129,9 @@ nav ul li a:hover{
  background: linear-gradient(180deg, rgb(227, 255, 253), rgb(10, 208, 194));
   padding: 24px;
 }
+
+/* this is the footer sections */
+footer{
+  background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+  height: 200px;
+}
