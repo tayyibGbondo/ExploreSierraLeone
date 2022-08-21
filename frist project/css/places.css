@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(30deg, rgb(77,77,77), rgb(58,58,58));
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: static;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo{
+  color: red;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+nav ul li{
+  margin-left: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(255, 251, 0);
+  padding: 10px;
+  border-radius: 5px;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+nav ul li a:hover{
+  background-color:rgb(255, 251, 0);
+  color: black;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* main section */
+
+main li img{
+  width: 300px;
+  object-fit: cover;
+}
+
+main ul{
+  max-width: 1200px;
+  margin: 0 auto 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+
+main li:nth-of-type(10){
+  grid-column: 1 / span 2;
+}
+
+main li:nth-of-type(3){
+  grid-column: 1 / span 2;
+}
+
+main ul li{
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.item-content{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item-content h1{
+  color: rgba(0, 0, 0, 0.749);
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item-content p{
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 200;
+  color: rgb(96, 94, 94);
+}
+
+.actions a{
+  color: rgb(44, 165, 165);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.actions a:hover{
+  background-color: rgba(127, 255, 212, 0.203);
+}
